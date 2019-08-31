@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #000;
+}
+.box{
+	width: 80%;
+	height: 600px;
+	margin: 50px auto;
+	background: url('../images/a.jpg') no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.box ul{
+	position: absolute;
+	bottom: 1vw;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.box ul li{
+	width: 2vw;
+	height: 2vw;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.8);
+	border: 3px solid #959595;
+	float: left;
+	margin-left: 1vw;
+}
+.box ul li:hover{
+	background: #9B9B9B;
+}
+.box .a1{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	z-index: 1;
+	/* background: red; */
+	background: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	left: -1.5vw;
+	top: 45%;
+	z-index: 2;
+}
+.box .a1 i{
+	margin-left: 8px;
+	line-height: 4vw;
+	font-size: 3vw;
+}
+.box .a2 i{
+	margin-left: 18px;
+	line-height: 4vw;
+	font-size: 3vw;
+}
+.box .a2{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	z-index: 1;
+	/* background: red; */
+	background: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	right: -1.5vw;
+	top: 45%;
+	z-index: 2;
+}
+.box p span{
+	cursor: pointer;
+}
+.box p span:hover{
+	background: #B4B4B4;
+}
+h1{
+	font-size: 20vw;
+	font-weight: 400;
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	transform: translateX(-50%);
+}

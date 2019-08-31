@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.lunbo{
+	width: 1680px;
+	height: 608px;
+	margin: 0 auto;
+	background: url('../images/pi.jpg');
+	position: relative;
+}
+.menu{
+	width: 1154px;
+	height: 136px;
+	margin: 0 auto;
+	position: fixed;
+	top: -1vw;
+	left: 50%;
+	margin-left: -575px;
+	z-index: 99;
+}
+
+.menu .left img{
+	width: 200px;
+	height: 136px;
+	float: left;
+}
+.menu .you{
+	float: right;
+	width: 650px;
+	height: 100%;
+	padding-top: 30px;
+}
+.menu .you p{
+	width: 100px;
+	height: 30px;
+	margin-left: 500px;
+	text-align: center;
+	line-height: 30px;
+	background: rgba(204, 204, 102, .5);
+	color: #fff;
+}
+.menu .you p i{
+	color: red;
+}
+.menu .you ul{
+	width: 100%;
+	height: 35px;
+	background: #fff;
+	border-radius: 15px;
+	z-index: 5;
+}
+.menu .you ul li{
+	float: left;
+}
+.menu .you ul .aa{
+	margin-left: 5px;
+}
+.menu .you ul li a{
+	display: block;
+	padding: 4px 13px 5px 13px;
+	margin: 3px 0;
+	color: #485461;
+}
+.menu .you ul .aa a:hover{
+	border-radius: 15px 0 0 15px;
+}
+.menu .you ul li a:hover{
+	color: #FFFFFF;
+	background: #fc8136;
+}
+
+.menu .you ul .a1 input{
+	margin-top: 5px;
+	margin-left: 2vw;
+	background: #ebebeb;
+	width: 150px;
+	height: 20px;
+	border-radius: 15px;
+}
+.menu1 .yeze{
+	position: absolute;
+	right: 10vw;
+	top: 0;
+	width: 433px;
+	height: 230px;
+}
+.lunbo{
+	cursor: pointer;
+}
+.lunbo .img_1{
+	position: absolute;
+	left: 7vw;
+	top: 0;
+	z-index: 1;
+}
+.lunbo .img_2{
+	position: absolute;
+	right: 20vw;
+	top: 17vw;
+	z-index: 1;
+}
+.lunbo .left_1{
+	position: absolute;
+	left: -8vw;
+	top: 45%;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	transform: rotate(-30deg);
+	background: rgba(255, 255, 255, .5);
+
+}
+.lunbo .left_2{
+	position: absolute;
+	/* left: 1615px; */
+	right: -8vw;
+	top: 45%;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	transform: rotate(30deg);
+	background: rgba(255, 255, 255, .5);
+}
+.lunbo .left_1 .a1{
+	position: absolute;
+	right: 1.5vw;
+	width: 0;
+	height: 0;
+	display: block;
+	border-top: 15px transparent dashed;
+	border-left: 15px transparent dashed;
+	border-bottom: 15px transparent dashed;
+	border-right: 15px #fff solid;
+	transform: rotate(30deg);
+}
+.lunbo .left_2 .a1{
+	position: absolute;
+	top: 0.3vw;
+	left: 1.5vw;
+	width: 0;
+	height: 0;
+	display: block;
+	color: #fff;
+	border-top: 15px transparent dashed;
+	border-left: 15px solid;
+	border-bottom: 15px transparent dashed;
+	border-right: 15px #fff  transparent dashed;
+	transform: rotate(-30deg);
+}
+.main{
+	margin-top: 2vw;
+}
+.main .a1{
+	width: 97%;
+	margin: 0 auto;
+	overflow: hidden;
+	cursor: pointer;
+}
+.main .aa img{
+	width: 290px;
+	height: 166px;
+}
+
+.yejiao{
+	margin: 3vw 0 5vw 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.yejiao img{
+	float: left;
+	margin-left: 3vw;
+}
+.yejiao ul{
+	margin-right: 3vw;
+	float: right;
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+.yejiao ul li a{
+	color: #000000;
+}
+.yejiao ul li a:hover{
+	color: red;
+}

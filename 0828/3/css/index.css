@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 870px;
+	height: 300px;
+	margin: 100px auto;
+	padding: 10px 0;
+	background: rgb(73, 74, 94);
+	display: none;
+}
+.box .dd{
+	width: 250px;
+	height: 290px;
+	margin-left: 30px;
+	float: left;
+}
+.box .a1{
+	width: 250px;
+	height: 290px;
+	position: relative;
+	transform-style: preserve-3d; 
+	transition: all 2s;
+}
+.box .dd:hover .a1{
+	transform: rotateX(0) rotateY(180deg);
+}
+.box .a1 img{
+	width: 100%;
+	height: 290px;
+}
+.box .a1 .shang{
+	position: absolute;
+	top: 7vw;
+	width: 100%;
+	color: #fff;
+	transform: translateZ(30px);
+	text-align: center;
+}
+.box .a1 .shang p{
+	width: 70px;
+	height: 1px;
+	border-top: 2px solid #fff;
+	margin: 0.5vw auto;
+}
+.box .a1 .shang h2{
+	color: #D6D6D6;
+	margin-top: 1vw;
+	font-weight: 200;
+}
+.box .a1 .xia1{
+	width: 250px;
+	height: 289px;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	background: linear-gradient(to top left ,rgb(215, 215, 215), rgb(95, 111, 119));
+	transform: translateZ(-2px);
+}
+.box .a1 .xia{
+	width: 250px;
+	height: 290px;
+	line-height: 35px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 30px;
+	transform: translateZ(-30px) rotateY(-180deg);
+	text-align: center;
+	color: #fff;
+}
+.box .a1 .xia .c1{
+	margin-top: 1vw;
+}
+.box_1{
+	margin: 100px auto;
+	display: block;
+	position: fixed;
+	left: 50%;
+	top: 40%;
+	margin-left: -54px;
+	margin-top: -100px;
+	z-index: 55;
+	text-align: center;
+}
+h4{
+	font-size: 30px;
+	color: #fff;
+}

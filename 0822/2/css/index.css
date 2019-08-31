@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #E3E3E3;
+	text-align: center;
+	color: red;
+}
+.box{
+	width: 100%;
+	height: 600px;
+	margin-top: 80px;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 4px 4px 10px #B1B1B1;
+}
+.left{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -100px;
+	margin-bottom: 100px;
+	margin-left: 5px;
+	width: 90px;
+	height: 200px;
+	border: 5px solid red;
+	line-height: 200px;
+}
+.zhong{
+	width: 500px;
+	height: 580px;
+	border: 5px solid red;
+	position: absolute;
+	left: 50%;
+	top: 2px;
+	margin-left: -250px;
+}
+.zhong .top{
+	width: 95%;
+	margin: 5px auto;
+	height: 80px;
+	border: 5px solid red;
+}
+.zhong .top .a1{
+	width: 130px;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 5px solid red;
+	float: left;
+}
+.zhong .top .a2{
+	width: 280px;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 5px solid red;
+	float: right
+}
+.zhong .main{
+	width: 95%;
+	height: 370px;
+	margin: 5px auto;
+	border: 5px solid red;
+}
+.zhong .main .top{
+	width: 95%;
+	height: 170px;
+	border: 5px solid red;
+	margin: 5px auto;
+	line-height: 170px;
+}
+.zhong .main .left1,.zhong .main .you1{
+	width: 200px;
+	height: 160px;
+	border: 5px solid red;
+	margin-left: 20px;
+	line-height: 150px;
+	float: left;
+}
+.zhong .yejiao{
+	width: 95%;
+	height: 80px;
+	line-height: 80px;
+	margin: 5px auto;
+	border: 5px solid red;
+
+}
+
+
+
+
+
+
+
+
+.you{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 150px;
+	height: 200px;
+	line-height: 200px;
+	border: 3px solid red;
+}

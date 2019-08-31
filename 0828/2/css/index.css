@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+
+}
+.aa{
+	width: 300px;
+	height: 300px;
+	margin: 200px auto;
+	transform-style: preserve-3d;
+	transform: rotateX(-20deg) rotateY(30deg);
+	position: relative;
+	animation: aa 10s linear infinite;
+}
+.box .aa> div[class*="a"]{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 300px;
+	text-align: center;
+	font-size: 50px;
+	transition: all 1s;
+	background: rgba(84, 84, 84, .8);
+	color: #fff;
+	font-weight: bold;
+}
+.box .aa .a1{
+	transform: translateZ(150px);
+}
+.box .aa .a2{
+	transform: translateZ(-150px) rotateY(180deg);
+}
+.box .aa .a3{
+	transform: translateY(-150px) rotateX(90deg);
+}
+.box .aa .a4{
+	transform: translateY(150px) rotateX(-90deg);
+}
+.box .aa .a5{
+	transform: translateX(-150px) rotateY(-90deg);
+}
+.box .aa .a6{
+	transform: translateX(150px) rotateY(90deg);
+}
+
+.aa:hover .a1{
+	transform: translateZ(300px);
+}
+.aa:hover .a2{
+	transform: translateZ(-300px) rotateY(180deg);
+}
+.aa:hover .a3{
+	transform: translateY(-300px) rotateX(90deg);
+}
+.aa:hover .a4{
+	transform: translateY(300px) rotateX(-90deg);
+}
+.aa:hover .a5{
+	transform: translateX(-300px) rotateY(-90deg);
+}
+.aa:hover .a6{
+	transform: translateX(300px) rotateY(90deg);
+}
+
+
+.box .aa> div[class*="b"]{
+	width: 150px;
+	height: 150px;
+	background: rgba(153, 153, 153, .8);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -75px;
+	margin-top: -75px;
+	line-height: 150px;
+	text-align: center;
+	font-size: 50px;
+	transition: all 1s;
+	border: 1px solid #000;
+}
+
+.box .aa .b1{
+	transform: translateZ(75px);
+}
+.box .aa .b2{
+	transform: translateZ(-75px) rotateY(180deg);
+}
+.box .aa .b3{
+	transform: translateY(-75px) rotateX(90deg);
+}
+.box .aa .b4{
+	transform: translateY(75px) rotateX(-90deg);
+}
+.box .aa .b5{
+	transform: translateX(-75px) rotateY(-90deg);
+}
+.box .aa .b6{
+	transform: translateX(75px) rotateY(90deg);
+}
+@keyframes aa
+{
+	from{
+        transform: rotateX(-20deg) rotateY(30deg);
+    }
+    to{
+        transform: rotateX(-20deg) rotateY(390deg) rotateZ(360deg);
+    }	
+}

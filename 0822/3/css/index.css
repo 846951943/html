@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #F0F0F0;
+	color: red;
+	text-align: center;
+}
+.box{
+	width: 80%;
+	height: 530px;
+	margin: 70px auto;
+	background: #FFFFFF;
+	box-shadow: 5px 5px 10px #AFAFAF;
+	overflow: hidden;
+	position: relative;
+}
+.box .left{
+	width: 130px;
+	height: 300px;
+	border: 5px solid red;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -150px;
+}
+.box .left .aa{
+	margin-top: 100px;
+	font-size: 20px;
+}
+.box .left .a1{
+	font-size: 20px;
+}
+.box .you{
+	width: 100px;
+	height: 350px;
+	border: 5px solid red;
+	position: absolute;
+	top: 18%;
+	right: 0;
+}
+.box .you1{
+	width: 100px;
+	height: 50px;
+	border: 5px solid red;
+	position: absolute;
+	bottom: 2%;
+	right: 0;
+	line-height: 50px;
+}
+
+.zhong{
+	width: 70%;
+	height: 505px;
+	margin: 5px auto;
+	border: 5px solid red;
+}
+.zhong .logo{
+	width: 250px;
+	height: 40px;
+	border: 3px solid red;
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+	line-height: 40px;
+}
+
+.zhong .denglu{
+	width: 250px;
+	height: 40px;
+	border: 3px solid red;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: right;
+	line-height: 40px;
+}
+
+.zhong .a1{
+	clear: both;
+	width: 97%;
+	margin: 5px auto;
+	height: 30px;
+	border: 3px solid red;
+}
+.zhong .a2,
+.zhong .a3,
+.zhong .a4,
+.zhong .a5{
+	border-right: 3px solid red;
+	width: 50px;
+	height: 30px;
+	display: block;
+	float: left;
+}
+.zhong .a3{
+	width: 200px;
+}
+.zhong .a4{
+	width: 250px;
+}
+.zhong .a5{
+	width: 200px;
+}
+.zhong .a7{
+	width: 97%;
+	height: 90px;
+	line-height: 90px;
+	margin: 5px auto;
+	border: 3px solid red;
+}
+.zhong .a7 p{
+	margin-left: 50px;
+}
+.zhong .a8{
+	width: 97%;
+	height: 100px;
+	line-height: 60px;
+	margin: 5px auto;
+	border: 3px solid red;
+}
+.zhong .a8 .a9{
+	width: 48.8%;
+	height: 90px;
+	margin-top: 2px;
+	margin-left: 3px;
+	border: 3px solid red;
+	float: left;
+}
+.zhong .a10,.zhong .a12{
+	width: 230px;
+	height: 100px;
+	border: 3px solid red;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.zhong .a11{
+	width: 350px;
+	height: 100px;
+	border: 3px solid red;
+	float: left;
+	margin-left: 5px;
+}
+.zhong .a13{
+	clear: both;
+	width: 97%;
+	height: 30px;
+	border: 3px solid red;
+	margin-top: 5px;
+	margin: 5px auto; 
+}
+.zhong .a14	{
+	clear: both;
+	width: 97%;
+	height: 30px;
+	border: 3px solid red;
+	margin-top: 5px;
+	margin: 0 auto; 
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="swiper-4.5.0/dist/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/font_1370604_eh78r460frm/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/font_1167493_zbqtdhhcyl/iconfont.css">
+</head>
+<body>
+	<div class="box">
+		<div class="menu">
+			<div class="left"><img src="images/logo.png" alt=""></div>
+			<div class="you">
+				<p><i class="iconfont">&#xe63e;</i>诺立美微博</p>
+				<ul>
+					<li class="aa"><a href="" title="">首页</a></li>
+					<li><a href="" title="">关于诺立美</a></li>
+					<li><a href="" title="">最新动态</a></li>
+					<li><a href="" title="">产品展示</a></li>
+					<li><a href="" title="">专业课堂</a></li>
+					<li class="a1">
+						<input type="text" name="">
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		<div class="lunbo swiper-container" dir="rtl" >
+			<div class="lunbo_1 swiper-wrapper">
+				<div class="menu1 swiper-slide">
+					<div class="yeze"><img src="images/Leaf.png" alt=""></div>
+					<div class="img_1">
+						<img src="images/banner1.png" width="582" height="608" alt="">
+					</div>
+					<div class="img_2">
+						<img src="images/banner2.png" width="608" height="206" alt="">
+					</div>
+				</div>
+				<div class="menu1 swiper-slide">
+					<div class="yeze"><img src="images/Leaf.png" alt=""></div>
+					<div class="img_1">
+						<img src="images/banner1.png" width="582" height="608" alt="">
+					</div>
+					<div class="img_2">
+						<img src="images/banner2.png" width="608" height="206" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="left_1 swiper-button-next"><i class="a1"></i></div>
+			<div class="left_2 swiper-button-prev"><i class="a1"></i></div>
+		</div>
+		<div class="main">
+			<div class="a1 swiper-container1">
+			    <div class=" swiper-wrapper">
+			      <div class="aa a2 swiper-slide"><img src="images/banner3.png" alt=""></div>
+			      <div class="aa swiper-slide"><img src="images/banner4.png" alt=""></div>
+			      <div class="aa swiper-slide"><img src="images/banner5.png" alt=""></div>
+			      <div class="aa swiper-slide"><img src="images/banner6.png" alt=""></div>
+			      <div class="aa swiper-slide"><img src="images/banner7.png" alt=""></div>
+			    </div>
+			  </div>
+		</div>
+		<div class="yejiao">
+			<img src="images/1_03.gif" alt="">
+			<ul>
+				<li><a href="#" title="">联系我们</a></li>
+				<li><a href="#" title="">关于诺立美</a></li>
+				<li><a href="#" title="">最新动态</a></li>
+				<li><a href="#" title="">产品展示</a></li>
+				<li><a href="#" title="">专业课堂</a></li>
+				<li><a href="#" title="">粤ICP备12088417号-1</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="swiper-4.5.0/dist/js/swiper.min.js"></script>
+<script type="text/javascript">
+	 var mySwiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+	     delay: 2000,
+	     disableOnInteraction: false,
+	  },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+	 mySwiper.el.onmouseover = function(){
+	  mySwiper.autoplay.stop();
+	}
+
+	mySwiper.el.onmouseout = function(){
+	  mySwiper.autoplay.start();
+	}
+
+	var swiper = new Swiper('.swiper-container1', {
+      slidesPerView: 5,
+      loop: true,
+      spaceBetween: 50,
+      autoplay: {
+	     delay: 2000,
+	     disableOnInteraction: false,
+	  },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+</script>
+</html>

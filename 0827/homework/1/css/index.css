@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 1000px;
+	margin: 100px auto;
+	height: 150px;
+	background: #E5E4E4;
+	overflow: hidden;
+}
+.box{
+	width: 130px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background: #9BFF00;
+	color: #fff;
+	font-weight: 900;
+	border-radius: 15px;
+	margin: 30px 10px;
+	animation: aa 4s linear infinite;
+}
+@keyframes aa
+{
+	0%   {transform: translateX(0);}
+	25%  {
+		transform: rotate(35deg);
+		background: #00FFC9;
+	}
+	50%  {
+		background: #00FFE3;
+		transform: translateX(850px);
+	}
+	65%{
+		transform: translateX(850px);
+		background: #00FFC9;
+	}
+	100%  {
+		transform: translateX(0) rotate(-360deg);
+	}
+}
